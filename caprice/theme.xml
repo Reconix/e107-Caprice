@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Caprice" lan="" version="0.1" date="01-01-2018" compatibility="2.0" livedemo="">
+	<author name="Reconix" url="http://www.reconix.net" />
+	<summary lan="">Caprice a basic free theme</summary>
+	<description lan="">Free theme based off of Caprice</description>
+	<category>personal</category>
+	<keywords>
+		<word>personal</word>
+		<word>blog</word>
+		<word>free</word>
+	</keywords>
+	<copyright>unknown</copyright>
+	<screenshots>
+		<image>preview.jpg</image>
+	</screenshots>
+	<layouts>
+		<layout name='default' title='Default Theme' default='true' />
+		<layout name='custom_home' title='Custom Home Page' default='false'>
+			<custompages>FRONTPAGE</custompages>
+		</layout>
+		<layout name='news' title='News / Blog Page'>
+			<custompages>news</custompages>
+			<custompages>/news/</custompages>
+		</layout>
+		<layout name='contact' title='Contact Us Page'>
+			<custompages>contact</custompages>
+			<custompages>/contact.php</custompages>
+		</layout>
+	</layouts>
+</e107Theme>
